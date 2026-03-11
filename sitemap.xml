@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://kilaura-tribe.github.io/myblog/</loc>
     <lastmod>2026-03-11T12:31:46+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://kilaura-tribe.github.io/myblog/posts/</loc>
     <lastmod>2026-03-11T12:31:46+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/install-nexfil/</loc>
+    <loc>https://kilaura-tribe.github.io/myblog/posts/install-nexfil/</loc>
     <lastmod>2026-03-11T12:31:46+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</loc>
+    <loc>https://kilaura-tribe.github.io/myblog/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</loc>
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://kilaura-tribe.github.io/myblog/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://kilaura-tribe.github.io/myblog/tags/</loc>
   </url>
 </urlset>

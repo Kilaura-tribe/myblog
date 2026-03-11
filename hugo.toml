@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kilaura-tribe.github.io/myblog/'
 languageCode = 'ru'
 title = 'My and You Veri Osint'
 theme = 'PaperMod'
@@ -7,10 +7,10 @@ theme = 'PaperMod'
     Title = "Привет! Я интересуюсь OSINT 🔍"
     Content = "Здесь я делюсь гайдами по Termux и результатами расследований."
 
-[[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/ваш-профиль"
-[[params.socialIcons]]
-    name = "telegram"
-    url = "https://t.me/ваш-ник"
+#[[params.socialIcons]]
+#    name = "github"
+#    url = "https://github.com/ваш-профиль"
+#[[params.socialIcons]]
+#    name = "telegram"
+#    url = "https://t.me/ваш-ник"
 

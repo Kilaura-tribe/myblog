@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on My and You Veri Osint</title>
-    <link>https://example.org/posts/</link>
+    <link>https://kilaura-tribe.github.io/myblog/posts/</link>
     <description>Recent content in Posts on My and You Veri Osint</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Wed, 11 Mar 2026 12:31:46 +0000</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kilaura-tribe.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Установка nexfil в Termux</title>
-      <link>https://example.org/posts/install-nexfil/</link>
+      <link>https://kilaura-tribe.github.io/myblog/posts/install-nexfil/</link>
       <pubDate>Wed, 11 Mar 2026 12:31:46 +0000</pubDate>
-      <guid>https://example.org/posts/install-nexfil/</guid>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/install-nexfil/</guid>
       <description>&lt;h3 id=&#34;что-такое-nexfil&#34;&gt;Что такое nexfil?&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;nexfil&lt;/strong&gt; — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.&lt;/p&gt;
 &lt;h3 id=&#34;пошаговая-установка&#34;&gt;Пошаговая установка:&lt;/h3&gt;
@@ -42,9 +42,9 @@ python3 nexfil.py -u никнейм&lt;/p&gt;</description>
     </item>
     <item>
       <title>Установка Nexfil: Подробный гайд</title>
-      <link>https://example.org/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</link>
+      <link>https://kilaura-tribe.github.io/myblog/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</link>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</guid>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</guid>
       <description>&lt;p&gt;Привет! В этом гайде мы пошагово разберем, как установить &lt;strong&gt;Nexfil&lt;/strong&gt; — мощный инструмент для OSINT, который ищет аккаунты по никнейму более чем на 350 ресурсах.&lt;/p&gt;
 &lt;p&gt;Ниже приведен список команд. Вводи их в Termux по очереди.&lt;/p&gt;
 &lt;hr&gt;

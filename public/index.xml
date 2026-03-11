@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My and You Veri Osint</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on My and You Veri Osint</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Wed, 11 Mar 2026 12:31:46 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Установка nexfil в Termux</title>
-      <link>http://localhost:1313/posts/install-nexfil/</link>
+      <link>https://example.org/posts/install-nexfil/</link>
       <pubDate>Wed, 11 Mar 2026 12:31:46 +0000</pubDate>
-      <guid>http://localhost:1313/posts/install-nexfil/</guid>
+      <guid>https://example.org/posts/install-nexfil/</guid>
       <description>&lt;h3 id=&#34;что-такое-nexfil&#34;&gt;Что такое nexfil?&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;nexfil&lt;/strong&gt; — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.&lt;/p&gt;
 &lt;h3 id=&#34;пошаговая-установка&#34;&gt;Пошаговая установка:&lt;/h3&gt;

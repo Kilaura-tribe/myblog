@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardware on My and You Very Osint</title>
+    <link>https://kilaura-tribe.github.io/myblog/tags/hardware/</link>
+    <description>Recent content in Hardware on My and You Very Osint</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kilaura-tribe.github.io/myblog/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как узнать всё о железе своего Android</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/android-hardware-guide/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/android-hardware-guide/</guid>
+      <description>&lt;p&gt;Часто производители смартфонов скрывают точные характеристики компонентов. Вот лучшие способы вывести их на чистую воду:&lt;/p&gt;
+&lt;h3 id=&#34;1-device-info-hw&#34;&gt;1. Device Info HW&lt;/h3&gt;
+&lt;p&gt;Это база. Приложение показывает:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Модель сенсора камеры:&lt;/strong&gt; (например, Sony IMX или Samsung ISOCELL).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Тип памяти:&lt;/strong&gt; UFS 3.1 или медленная eMMC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Панель экрана:&lt;/strong&gt; кто производитель матрицы.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-специфические-тесты&#34;&gt;2. Специфические тесты&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DevCheck:&lt;/strong&gt; если нужно мониторить частоту каждого ядра процессора в реальном времени.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AccuBattery:&lt;/strong&gt; лучший способ узнать реальную емкость аккумулятора, а не ту, что написана на коробке.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Burnout Benchmark:&lt;/strong&gt; серьезный тест для проверки системы охлаждения на троттлинг.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-метод-termux&#34;&gt;3. Метод Termux&lt;/h3&gt;
+&lt;p&gt;Раз мы любим консоль, можно вытянуть часть инфы прямо из системы:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Топ утилит для диагностики ПК</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/pc-hardware-tools/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/pc-hardware-tools/</guid>
+      <description>&lt;p&gt;Если твой ПК начал вести себя странно или ты только что собрал новую систему, эти инструменты помогут найти слабое звено:&lt;/p&gt;
+&lt;h3 id=&#34;1-тестирование-стабильности-стресс-тесты&#34;&gt;1. Тестирование стабильности (Стресс-тесты)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AIDA64&lt;/strong&gt; — классика. Позволяет нагрузить процессор и память, чтобы проверить, справляется ли система охлаждения.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OCCT&lt;/strong&gt; — более жесткий тест. Идеален для поиска проблем с блоком питания и цепями питания материнской платы.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TestMem5&lt;/strong&gt; — если компьютер вылетает с &amp;ldquo;синим экраном&amp;rdquo; (BSOD), прогони память этим тестом.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-мониторинг-и-температуры&#34;&gt;2. Мониторинг и температуры&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HWMonitor&lt;/strong&gt; — простая и легкая программа, чтобы видеть температуры всех датчиков в одном окне.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CrystalDiskInfo&lt;/strong&gt; — покажет, сколько &amp;ldquo;жизни&amp;rdquo; осталось у твоего SSD и нет ли битых секторов на жестком диске.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-проверка-видеокарты&#34;&gt;3. Проверка видеокарты&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FurMark&lt;/strong&gt; — знаменитый &amp;ldquo;бублик&amp;rdquo;. Если видеокарта держит этот тест 15 минут и не перегревается выше 80-85 градусов — с ней всё в порядке.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU-Z&lt;/strong&gt; — покажет реальные характеристики видеокарты, чтобы убедиться, что тебе не продали подделку с перешитым биосом.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Важно:&lt;/strong&gt; Во время стресс-тестов всегда следи за температурой. Если видишь 95+ градусов — немедленно выключай тест!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

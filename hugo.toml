@@ -1,6 +1,7 @@
 baseURL = 'https://kilaura-tribe.github.io/myblog/'
 languageCode = 'ru'
 title = 'My and You Very Osint'
+publishDir = "docs"
 theme = 'PaperMod'
 
 [params.homeInfoParams]

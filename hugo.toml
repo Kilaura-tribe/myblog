@@ -1,6 +1,6 @@
 baseURL = 'https://kilaura-tribe.github.io/myblog/'
 languageCode = 'ru'
-title = 'My and You Veri Osint'
+title = 'My and You Very Osint'
 theme = 'PaperMod'
 
 [params.homeInfoParams]
@@ -13,4 +13,28 @@ theme = 'PaperMod'
 #[[params.socialIcons]]
 #    name = "telegram"
 #    url = "https://t.me/ваш-ник"
+
+[params]
+    showCodeCopyButtons = true
+[menu]
+    [[menu.main]]
+        identifier = "osint"
+        name = "OSINT"
+        url = "/tags/osint/"
+        weight = 10
+    [[menu.main]]
+        identifier = "termux"
+        name = "Termux"
+        url = "/tags/termux/"
+        weight = 20
+    [[menu.main]]
+        identifier = "hardware"
+        name = "Железо"
+        url = "/tags/hardware/"
+        weight = 30    
+[[menu.main]]
+        identifier = "search"
+        name = "Поиск"
+        url = "/search/"
+        weight = 40
 

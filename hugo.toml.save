@@ -1,0 +1,50 @@
+
+baseURL = 'https://kilaura-tribe.github.io/myblog/'
+languageCode = 'ru'
+title = 'My and You Very Osint'
+publishDir = "docs"
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+    Title = "Привет! Я интересуюсь OSINT 🔍"
+    Content = "Здесь я делюсь гайдами по Termux и результатами расследований."
+
+#[[params.socialIcons]]
+#    name = "github"
+#    url = "https://github.com/ваш-профиль"
+#[[params.socialIcons]]
+#    name = "telegram"
+#    url = "https://t.me/ваш-ник"
+
+[params]
+    showCodeCopyButtons = true
+[menu]
+    [[menu.main]]
+        identifier = "osint"
+        name = "OSINT"
+        url = "/tags/osint/"
+        weight = 10
+    [[menu.main]]
+        identifier = "termux"
+        name = "Termux"
+        url = "/tags/termux/"
+        weight = 20
+    [[mfhhugo
+git add .
+git commit -m "Update home page design"
+git push origin main
+d
+
+
+
+
+
+    ccc        name = "Железо"
+        url = "/tags/hardware/"
+        weight = 30    
+[[menu.main]]
+        identifier = "search"
+        name = "Поиск"
+        url = "/search/"
+        weight = 40
+

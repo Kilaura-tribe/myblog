@@ -9,6 +9,22 @@
     <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kilaura-tribe.github.io/myblog/tags/osint/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Как я поднял этот сайт прямо в Termux</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/how-i-built-this-site/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/how-i-built-this-site/</guid>
+      <description>&lt;p&gt;Зачем использовать тяжелый ПК, если всё можно сделать на Android? В этом посте я расскажу, как этот блог был собран с нуля в консоли Termux.&lt;/p&gt;
+&lt;h3 id=&#34;-мой-набор-инструментов&#34;&gt;🛠 Мой набор инструментов&lt;/h3&gt;
+&lt;p&gt;Для работы мне понадобилось всего три вещи:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Termux&lt;/strong&gt; — терминал для Android.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; — генератор статических сайтов (быстрый и легкий).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — место, где сайт живет и откуда открывается миру.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;-основные-этапы-сборки&#34;&gt;📝 Основные этапы сборки&lt;/h3&gt;
+&lt;p&gt;Весь процесс можно уместить в несколько команд.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Установка Sherlock и Blackbird в Termux</title>
       <link>https://kilaura-tribe.github.io/myblog/posts/setup-sherlock/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>

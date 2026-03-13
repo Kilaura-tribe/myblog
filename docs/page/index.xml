@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on My and You Very Osint</title>
+    <link>https://kilaura-tribe.github.io/myblog/page/</link>
+    <description>Recent content in Pages on My and You Very Osint</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kilaura-tribe.github.io/myblog/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSINT Dashboard: Мониторинг</title>
+      <link>https://kilaura-tribe.github.io/myblog/page/dashboard/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/page/dashboard/</guid>
+      <description>&lt;p&gt;Инструменты мониторинга в реальном времени для оперативной работы.&lt;/p&gt;
+&lt;h3 id=&#34;-воздушный-трафик-flightradar24&#34;&gt;✈️ Воздушный трафик (FlightRadar24)&lt;/h3&gt;
+&lt;iframe src=&#34;https://www.flightradar24.com/simple_index.php?lat=55.7&amp;lon=37.6&amp;z=8&#34; width=&#34;100%&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;-морской-трафик-marinetraffic&#34;&gt;🚢 Морской трафик (MarineTraffic)&lt;/h3&gt;
+&lt;iframe src=&#34;https://www.marinetraffic.com/en/ais/embed/zoom:5/centery:55/centerx:37/maptype:4/shownames:false/mmsi:0/shipid:0/fleet:/fleet_id:/vessel:0/container:true/showmenu:false/remember:false&#34; width=&#34;100%&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;-мониторинг-кибер-атак-kaspersky-cybermap&#34;&gt;🛡 Мониторинг кибер-атак (Kaspersky Cybermap)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://cybermap.kaspersky.com/ru/widget/dynamic/dark&#34;&gt;Открыть карту кибер-атак в новом окне&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Данные обновляются в реальном времени. Используйте для анализа обстановки.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;-мировое-время&#34;&gt;🌍 Мировое время&lt;/h3&gt;
+&lt;iframe src=&#34;https://www.clocklink.com/clocks/worldclock001-gray.html?World_Clock&amp;&#34; width=&#34;100%&#34; height=&#34;250&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;-спутниковые-снимки-nasa&#34;&gt;🛰 Спутниковые снимки (NASA)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://worldview.earthdata.nasa.gov/&#34;&gt;Посмотреть актуальные снимки Земли&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

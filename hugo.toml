@@ -38,4 +38,6 @@ theme = 'PaperMod'
         name = "Поиск"
         url = "/search/"
         weight = 40
+[markup.goldmark.renderer]
+    unsafe = true
 

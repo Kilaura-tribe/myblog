@@ -85,6 +85,42 @@ pkg install python git rust binutils
 &lt;p&gt;Весь процесс можно уместить в несколько команд.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Список проверенных OSINT ботов в Telegram (2026)</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/osint-telegram-bots-2026/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/osint-telegram-bots-2026/</guid>
+      <description>&lt;p&gt;Этот список я обновляю лично. Только то, что работает и не спамит.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Бот&lt;/th&gt;
+          &lt;th&gt;Функция&lt;/th&gt;
+          &lt;th&gt;Статус&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;@QuickOSINT_bot&lt;/td&gt;
+          &lt;td&gt;Поиск по номеру / почте&lt;/td&gt;
+          &lt;td&gt;Работает&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;@EyeOfGod_bot&lt;/td&gt;
+          &lt;td&gt;Комплексный пробив (UA/RU)&lt;/td&gt;
+          &lt;td&gt;Работает&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;@Maigret_bot&lt;/td&gt;
+          &lt;td&gt;Поиск аккаунтов по нику&lt;/td&gt;
+          &lt;td&gt;Бесплатно&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Совет:&lt;/strong&gt; Никогда не вводи свои реальные данные в ботов. Используй &amp;ldquo;чистый&amp;rdquo; аккаунт.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
       <title>Топ утилит для диагностики ПК</title>
       <link>https://kilaura-tribe.github.io/myblog/posts/pc-hardware-tools/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>

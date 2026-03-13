@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kilaura-tribe.github.io/myblog/</loc>
-    <lastmod>2026-03-11T12:31:46+00:00</lastmod>
+    <lastmod>2026-03-13T17:32:07+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</loc>
+    <lastmod>2026-03-13T17:32:07+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/posts/</loc>
-    <lastmod>2026-03-11T12:31:46+00:00</lastmod>
+    <lastmod>2026-03-13T17:32:07+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/posts/install-nexfil/</loc>
     <lastmod>2026-03-11T12:31:46+00:00</lastmod>
@@ -17,5 +20,7 @@
     <loc>https://kilaura-tribe.github.io/myblog/categories/</loc>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/tags/</loc>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/search/</loc>
   </url>
 </urlset>

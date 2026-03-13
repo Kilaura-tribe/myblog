@@ -5,36 +5,22 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Установка nexfil в Termux | My and You Very Osint</title>
+<title>OSINT в кармане: Установка Sherlock и Blackbird в Termux | My and You Very Osint</title>
 <meta name="keywords" content="">
-<meta name="description" content="Что такое nexfil?
-nexfil — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.
-Пошаговая установка:
-
-
-Обновляем систему:
+<meta name="description" content="
+title: &ldquo;OSINT в кармане: Установка Sherlock и Blackbird в Termux&rdquo;
+date: 2026-03-13
+draft: false
+tags: [&ldquo;OSINT&rdquo;, &ldquo;Termux&rdquo;, &ldquo;Sherlock&rdquo;, &ldquo;Blackbird&rdquo;]
+Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.
+Подготовка системы
+Перед установкой инструментов обновим пакеты и установим Python с Git:
 bash
 pkg update &amp;&amp; pkg upgrade
-
-
-Устанавливаем необходимые зависимости (Python и Git):
-pkg install python git
-
-
-Клонируем репозиторий nexfil:
-git clone https://github.com/thewhiteh4t/nexfil.git
-
-
-Переходим в папку и устанавливаем библиотеки:
-cd nexfil
-pip install -r requirements.txt
-
-
-Запуск инструмента:
-Для поиска используйте команду:
-python3 nexfil.py -u никнейм">
+pkg install python git rust binutils
+:Установка Sherlock:">
 <meta name="author" content="">
-<link rel="canonical" href="https://kilaura-tribe.github.io/myblog/posts/install-nexfil/">
+<link rel="canonical" href="https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/">
 <link crossorigin="anonymous" href="/myblog/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://kilaura-tribe.github.io/myblog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://kilaura-tribe.github.io/myblog/favicon-16x16.png">
@@ -43,7 +29,7 @@ python3 nexfil.py -u никнейм">
 <link rel="mask-icon" href="https://kilaura-tribe.github.io/myblog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://kilaura-tribe.github.io/myblog/posts/install-nexfil/">
+<link rel="alternate" hreflang="en" href="https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/">
 <noscript>
     <style>
         #theme-toggle,
@@ -95,35 +81,23 @@ python3 nexfil.py -u никнейм">
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://kilaura-tribe.github.io/myblog/posts/install-nexfil/">
+</script><meta property="og:url" content="https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/">
   <meta property="og:site_name" content="My and You Very Osint">
-  <meta property="og:title" content="Установка nexfil в Termux">
-  <meta property="og:description" content="Что такое nexfil? nexfil — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.
-Пошаговая установка: Обновляем систему: bash pkg update &amp;&amp; pkg upgrade
-Устанавливаем необходимые зависимости (Python и Git):
-pkg install python git
-Клонируем репозиторий nexfil:
-git clone https://github.com/thewhiteh4t/nexfil.git
-Переходим в папку и устанавливаем библиотеки:
-cd nexfil pip install -r requirements.txt
-Запуск инструмента: Для поиска используйте команду: python3 nexfil.py -u никнейм">
+  <meta property="og:title" content="OSINT в кармане: Установка Sherlock и Blackbird в Termux">
+  <meta property="og:description" content="title: “OSINT в кармане: Установка Sherlock и Blackbird в Termux” date: 2026-03-13 draft: false tags: [“OSINT”, “Termux”, “Sherlock”, “Blackbird”] Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.
+Подготовка системы Перед установкой инструментов обновим пакеты и установим Python с Git:
+bash pkg update &amp;&amp; pkg upgrade pkg install python git rust binutils :Установка Sherlock:">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-03-11T12:31:46+00:00">
-    <meta property="article:modified_time" content="2026-03-11T12:31:46+00:00">
+    <meta property="article:published_time" content="2026-03-13T17:32:07+00:00">
+    <meta property="article:modified_time" content="2026-03-13T17:32:07+00:00">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Установка nexfil в Termux">
-  <meta name="twitter:description" content="Что такое nexfil? nexfil — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.
-Пошаговая установка: Обновляем систему: bash pkg update &amp;&amp; pkg upgrade
-Устанавливаем необходимые зависимости (Python и Git):
-pkg install python git
-Клонируем репозиторий nexfil:
-git clone https://github.com/thewhiteh4t/nexfil.git
-Переходим в папку и устанавливаем библиотеки:
-cd nexfil pip install -r requirements.txt
-Запуск инструмента: Для поиска используйте команду: python3 nexfil.py -u никнейм">
+  <meta name="twitter:title" content="OSINT в кармане: Установка Sherlock и Blackbird в Termux">
+  <meta name="twitter:description" content="title: “OSINT в кармане: Установка Sherlock и Blackbird в Termux” date: 2026-03-13 draft: false tags: [“OSINT”, “Termux”, “Sherlock”, “Blackbird”] Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.
+Подготовка системы Перед установкой инструментов обновим пакеты и установим Python с Git:
+bash pkg update &amp;&amp; pkg upgrade pkg install python git rust binutils :Установка Sherlock:">
 
 
 <script type="application/ld+json">
@@ -140,8 +114,8 @@ cd nexfil pip install -r requirements.txt
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Установка nexfil в Termux",
-      "item": "https://kilaura-tribe.github.io/myblog/posts/install-nexfil/"
+      "name": "OSINT в кармане: Установка Sherlock и Blackbird в Termux",
+      "item": "https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/"
     }
   ]
 }
@@ -150,20 +124,20 @@ cd nexfil pip install -r requirements.txt
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Установка nexfil в Termux",
-  "name": "Установка nexfil в Termux",
-  "description": "Что такое nexfil? nexfil — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.\nПошаговая установка: Обновляем систему: bash pkg update \u0026amp;\u0026amp; pkg upgrade\nУстанавливаем необходимые зависимости (Python и Git):\npkg install python git\nКлонируем репозиторий nexfil:\ngit clone https://github.com/thewhiteh4t/nexfil.git\nПереходим в папку и устанавливаем библиотеки:\ncd nexfil pip install -r requirements.txt\nЗапуск инструмента: Для поиска используйте команду: python3 nexfil.py -u никнейм\n",
+  "headline": "OSINT в кармане: Установка Sherlock и Blackbird в Termux",
+  "name": "OSINT в кармане: Установка Sherlock и Blackbird в Termux",
+  "description": " title: \u0026ldquo;OSINT в кармане: Установка Sherlock и Blackbird в Termux\u0026rdquo; date: 2026-03-13 draft: false tags: [\u0026ldquo;OSINT\u0026rdquo;, \u0026ldquo;Termux\u0026rdquo;, \u0026ldquo;Sherlock\u0026rdquo;, \u0026ldquo;Blackbird\u0026rdquo;] Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.\nПодготовка системы Перед установкой инструментов обновим пакеты и установим Python с Git:\nbash pkg update \u0026amp;\u0026amp; pkg upgrade pkg install python git rust binutils :Установка Sherlock:\n",
   "keywords": [
     
   ],
-  "articleBody": "Что такое nexfil? nexfil — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.\nПошаговая установка: Обновляем систему: bash pkg update \u0026\u0026 pkg upgrade\nУстанавливаем необходимые зависимости (Python и Git):\npkg install python git\nКлонируем репозиторий nexfil:\ngit clone https://github.com/thewhiteh4t/nexfil.git\nПереходим в папку и устанавливаем библиотеки:\ncd nexfil pip install -r requirements.txt\nЗапуск инструмента: Для поиска используйте команду: python3 nexfil.py -u никнейм\n",
-  "wordCount" : "74",
+  "articleBody": " title: “OSINT в кармане: Установка Sherlock и Blackbird в Termux” date: 2026-03-13 draft: false tags: [“OSINT”, “Termux”, “Sherlock”, “Blackbird”] Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.\nПодготовка системы Перед установкой инструментов обновим пакеты и установим Python с Git:\nbash pkg update \u0026\u0026 pkg upgrade pkg install python git rust binutils :Установка Sherlock:\n​Sherlock ищет аккаунты по никнейму на более чем 400 сайтах.\nКлонируем репозиторий: git clone https://github.com/sherlock-project/sherlock.git cd sherlock Устанавливаем зависимости: python3 -m pip install -r requirements.txt Запуск: python3 sherlock имя_пользователя :Установка Blackbir:\n​Blackbird — отличная альтернатива, которая часто находит то, что пропускает Sherlock.\nКлонируем репозиторий: git clone https://github.com/p1ngul1n0/blackbird cd blackbird Устанавливаем зависимости: pip install -r requirements.txt Запуск поиска: Для запуска используйте команду с флагом -u (username): python3 blackbird.py -u имя_пользователя ",
+  "wordCount" : "143",
   "inLanguage": "en",
-  "datePublished": "2026-03-11T12:31:46Z",
-  "dateModified": "2026-03-11T12:31:46Z",
+  "datePublished": "2026-03-13T17:32:07Z",
+  "dateModified": "2026-03-13T17:32:07Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://kilaura-tribe.github.io/myblog/posts/install-nexfil/"
+    "@id": "https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/"
   },
   "publisher": {
     "@type": "Organization",
@@ -234,41 +208,55 @@ cd nexfil pip install -r requirements.txt
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Установка nexfil в Termux
+      OSINT в кармане: Установка Sherlock и Blackbird в Termux
     </h1>
-    <div class="post-meta"><span title='2026-03-11 12:31:46 +0000 UTC'>March 11, 2026</span>
+    <div class="post-meta"><span title='2026-03-13 17:32:07 +0000 UTC'>March 13, 2026</span>
 
 </div>
   </header> 
-  <div class="post-content"><h3 id="что-такое-nexfil">Что такое nexfil?<a hidden class="anchor" aria-hidden="true" href="#что-такое-nexfil">#</a></h3>
-<p><strong>nexfil</strong> — это крайне быстрый инструмент для поиска профилей по никнейму. В отличие от многих аналогов, он проверяет сотни сайтов за считанные секунды.</p>
-<h3 id="пошаговая-установка">Пошаговая установка:<a hidden class="anchor" aria-hidden="true" href="#пошаговая-установка">#</a></h3>
+  <div class="post-content"><hr>
+<h2 id="tags-osint-termux-sherlock-blackbird">title: &ldquo;OSINT в кармане: Установка Sherlock и Blackbird в Termux&rdquo;
+date: 2026-03-13
+draft: false
+tags: [&ldquo;OSINT&rdquo;, &ldquo;Termux&rdquo;, &ldquo;Sherlock&rdquo;, &ldquo;Blackbird&rdquo;]</h2>
+<p>Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.</p>
+<h3 id="подготовка-системы">Подготовка системы<a hidden class="anchor" aria-hidden="true" href="#подготовка-системы">#</a></h3>
+<p>Перед установкой инструментов обновим пакеты и установим Python с Git:</p>
+<pre tabindex="0"><code>bash
+pkg update &amp;&amp; pkg upgrade
+pkg install python git rust binutils
+</code></pre><p>:Установка Sherlock:</p>
+<p>​<em>Sherlock</em> ищет аккаунты по никнейму на более чем 400 сайтах.</p>
 <ol>
-<li>
-<p><strong>Обновляем систему:</strong>
-bash
-pkg update &amp;&amp; pkg upgrade</p>
-</li>
-<li>
-<p>Устанавливаем необходимые зависимости (Python и Git):</p>
-<p>pkg install python git</p>
-</li>
-<li>
-<p>Клонируем репозиторий nexfil:</p>
-<p>git clone <a href="https://github.com/thewhiteh4t/nexfil.git">https://github.com/thewhiteh4t/nexfil.git</a></p>
-</li>
-<li>
-<p>Переходим в папку и устанавливаем библиотеки:</p>
-<p>cd nexfil
-pip install -r requirements.txt</p>
-</li>
-<li>
-<p>Запуск инструмента:
-Для поиска используйте команду:
-python3 nexfil.py -u никнейм</p>
-</li>
+<li>Клонируем репозиторий:</li>
 </ol>
-
+<pre tabindex="0"><code>git clone https://github.com/sherlock-project/sherlock.git
+cd sherlock
+</code></pre><ol start="2">
+<li>Устанавливаем зависимости:</li>
+</ol>
+<pre tabindex="0"><code>python3 -m pip install -r requirements.txt
+</code></pre><ol start="3">
+<li>Запуск:</li>
+</ol>
+<pre tabindex="0"><code>python3 sherlock имя_пользователя
+</code></pre><p>:Установка Blackbir:</p>
+<p><em>​Blackbird</em> — отличная альтернатива, которая часто находит то, что пропускает Sherlock.</p>
+<ol>
+<li>Клонируем репозиторий:</li>
+</ol>
+<pre tabindex="0"><code>git clone https://github.com/p1ngul1n0/blackbird
+cd blackbird
+</code></pre><ol start="2">
+<li>Устанавливаем зависимости:</li>
+</ol>
+<pre tabindex="0"><code>pip install -r requirements.txt
+</code></pre><ol start="3">
+<li>Запуск поиска:
+Для запуска используйте команду с флагом -u (username):</li>
+</ol>
+<pre tabindex="0"><code>python3 blackbird.py -u имя_пользователя
+</code></pre>
 
   </div>
 

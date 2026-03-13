@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My and You Veri Osint</title>
+    <title>Posts on My and You Very Osint</title>
     <link>https://kilaura-tribe.github.io/myblog/posts/</link>
-    <description>Recent content in Posts on My and You Veri Osint</description>
+    <description>Recent content in Posts on My and You Very Osint</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Wed, 11 Mar 2026 12:31:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 17:32:07 +0000</lastBuildDate>
     <atom:link href="https://kilaura-tribe.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSINT в кармане: Установка Sherlock и Blackbird в Termux</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</link>
+      <pubDate>Fri, 13 Mar 2026 17:32:07 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;tags-osint-termux-sherlock-blackbird&#34;&gt;title: &amp;ldquo;OSINT в кармане: Установка Sherlock и Blackbird в Termux&amp;rdquo;
+date: 2026-03-13
+draft: false
+tags: [&amp;ldquo;OSINT&amp;rdquo;, &amp;ldquo;Termux&amp;rdquo;, &amp;ldquo;Sherlock&amp;rdquo;, &amp;ldquo;Blackbird&amp;rdquo;]&lt;/h2&gt;
+&lt;p&gt;Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.&lt;/p&gt;
+&lt;h3 id=&#34;подготовка-системы&#34;&gt;Подготовка системы&lt;/h3&gt;
+&lt;p&gt;Перед установкой инструментов обновим пакеты и установим Python с Git:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bash
+pkg update &amp;amp;&amp;amp; pkg upgrade
+pkg install python git rust binutils
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;:Установка Sherlock:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Установка nexfil в Termux</title>
       <link>https://kilaura-tribe.github.io/myblog/posts/install-nexfil/</link>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Установка Nexfil: Подробный гайд | My and You Veri Osint</title>
+<title>Установка Nexfil: Подробный гайд | My and You Very Osint</title>
 <meta name="keywords" content="">
 <meta name="description" content="Привет! В этом гайде мы пошагово разберем, как установить Nexfil — мощный инструмент для OSINT, который ищет аккаунты по никнейму более чем на 350 ресурсах.
 Ниже приведен список команд. Вводи их в Termux по очереди.
@@ -83,7 +83,7 @@ pkg update &amp;&amp; pkg upgrade -y```
     }
 
 </script><meta property="og:url" content="https://kilaura-tribe.github.io/myblog/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/">
-  <meta property="og:site_name" content="My and You Veri Osint">
+  <meta property="og:site_name" content="My and You Very Osint">
   <meta property="og:title" content="Установка Nexfil: Подробный гайд">
   <meta property="og:description" content="Привет! В этом гайде мы пошагово разберем, как установить Nexfil — мощный инструмент для OSINT, который ищет аккаунты по никнейму более чем на 350 ресурсах.
 Ниже приведен список команд. Вводи их в Termux по очереди.
@@ -146,7 +146,7 @@ pkg update &amp;&amp; pkg upgrade -y```
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My and You Veri Osint",
+    "name": "My and You Very Osint",
     "logo": {
       "@type": "ImageObject",
       "url": "https://kilaura-tribe.github.io/myblog/favicon.ico"
@@ -159,7 +159,7 @@ pkg update &amp;&amp; pkg upgrade -y```
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://kilaura-tribe.github.io/myblog/" accesskey="h" title="My and You Veri Osint (Alt + H)">My and You Veri Osint</a>
+            <a href="https://kilaura-tribe.github.io/myblog/" accesskey="h" title="My and You Very Osint (Alt + H)">My and You Very Osint</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -184,6 +184,26 @@ pkg update &amp;&amp; pkg upgrade -y```
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/tags/osint/" title="OSINT">
+                    <span>OSINT</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/tags/termux/" title="Termux">
+                    <span>Termux</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/tags/hardware/" title="Железо">
+                    <span>Железо</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/search/" title="Поиск (Alt &#43; /)" accesskey=/>
+                    <span>Поиск</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -254,7 +274,7 @@ pkg update &amp;&amp; pkg upgrade -y```
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://kilaura-tribe.github.io/myblog/">My and You Veri Osint</a></span> · 
+        <span>&copy; 2026 <a href="https://kilaura-tribe.github.io/myblog/">My and You Very Osint</a></span> · 
 
     <span>
         Powered by
@@ -327,6 +347,53 @@ pkg update &amp;&amp; pkg upgrade -y```
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'копировать';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'скопировано!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'копировать';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

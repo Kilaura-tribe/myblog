@@ -16,7 +16,7 @@ theme = 'PaperMod'
 #    url = "https://t.me/ваш-ник"
 
 [params]
-    mainSections = ["posts", "log", "content"]    
+    mainSections = ["posts", "log"]    
     showCodeCopyButtons = true
 [menu]
 [[menu.main]]

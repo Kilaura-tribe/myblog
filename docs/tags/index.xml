@@ -6,8 +6,36 @@
     <description>Recent content in Tags on My and You Very Osint</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kilaura-tribe.github.io/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fsociety</title>
+      <link>https://kilaura-tribe.github.io/myblog/tags/fsociety/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/tags/fsociety/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>https://kilaura-tribe.github.io/myblog/tags/guide/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://kilaura-tribe.github.io/myblog/tags/linux/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Termux</title>
+      <link>https://kilaura-tribe.github.io/myblog/tags/termux/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/tags/termux/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hardware</title>
       <link>https://kilaura-tribe.github.io/myblog/tags/hardware/</link>
@@ -20,13 +48,6 @@
       <link>https://kilaura-tribe.github.io/myblog/tags/osint/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://kilaura-tribe.github.io/myblog/tags/osint/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Termux</title>
-      <link>https://kilaura-tribe.github.io/myblog/tags/termux/</link>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://kilaura-tribe.github.io/myblog/tags/termux/</guid>
       <description></description>
     </item>
     <item>

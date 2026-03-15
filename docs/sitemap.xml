@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kilaura-tribe.github.io/myblog/</loc>
-    <lastmod>2026-03-13T17:32:07+00:00</lastmod>
+    <loc>https://kilaura-tribe.github.io/myblog/log/</loc>
+    <lastmod>2026-03-15T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</loc>
-    <lastmod>2026-03-13T17:32:07+00:00</lastmod>
+    <loc>https://kilaura-tribe.github.io/myblog/</loc>
+    <lastmod>2026-03-15T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/log/2026-03-15-log/</loc>
+    <lastmod>2026-03-15T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/tags/fsociety/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/tags/guide/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/tags/linux/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/posts/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/tags/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/tags/termux/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/posts/termux-fsociety-setup/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</loc>
     <lastmod>2026-03-13T17:32:07+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/tags/hardware/</loc>
@@ -21,12 +45,6 @@
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/page/</loc>
-    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/tags/</loc>
-    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/tags/termux/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/tags/tools/</loc>

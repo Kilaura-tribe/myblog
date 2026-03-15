@@ -20,7 +20,6 @@ theme = 'PaperMod'
 #    name = "telegram"
 #    url = "https://t.me/ваш-ник"
 
-[params]
     mainSections = ["posts", "log"]    
     showCodeCopyButtons = true
 [menu]

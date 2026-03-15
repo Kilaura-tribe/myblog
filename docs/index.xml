@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My and You Very Osint</title>
+    <link>https://kilaura-tribe.github.io/myblog/</link>
+    <description>Recent content on My and You Very Osint</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Sun, 15 Mar 2026 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kilaura-tribe.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Дневник:  Глубокий анализ через GitHub и генерация PDF</title>
+      <link>https://kilaura-tribe.github.io/myblog/log/2026-03-15-log/</link>
+      <pubDate>Sun, 15 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/log/2026-03-15-log/</guid>
+      <description>&lt;h3 id=&#34;что-сделал-сегодня&#34;&gt;Что сделал сегодня:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Сегодня пробил ник hl0rey. Через логи коммитов удалось вытащить имя (Alexander Makarov) и рабочие почты. Инструмент izu подтвердил наличие профилей в Instagram и WordPress. Впервые автоматизировал сборку отчета в PDF.&lt;/p&gt;
+&lt;h4 id=&#34;итоги-ручной-проверки&#34;&gt;Итоги ручной проверки:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Instagram / Facebook: Ссылки не подтвердились (пустые страницы).&lt;/li&gt;
+&lt;li&gt;Twitter: Аккаунт найден и активен.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Это доказывает, что цель предпочитает текстовые платформы визуальным.&lt;/p&gt;
+&lt;h3 id=&#34;мысли-и-планы&#34;&gt;Мысли и планы:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Протестировать скрипт генерации PDF на реальных данных.
+​
+Улучшить фильтрацию ложноположительных результатов.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OSINT Кейс: d0xt3r — Цифровой след</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/case1/</link>
+      <pubDate>Sat, 14 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/case1/</guid>
+      <description>&lt;h3 id=&#34;-вводные-данные&#34;&gt;🟢 Вводные данные&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Target:&lt;/strong&gt; d0xt3r&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Инструменты:&lt;/strong&gt; Snoop, Blackbird, Reddit, OSINT Framework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Цель:&lt;/strong&gt; Деанонимизация и поиск связей.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-анализ-активности&#34;&gt;🔍 Анализ активности&lt;/h3&gt;
+&lt;h4 id=&#34;1-социальные-сети-twitter--x&#34;&gt;1. Социальные сети (Twitter / X)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Аккаунт:&lt;/strong&gt; &lt;code&gt;@d0xt3r&lt;/code&gt; (4dny4Na pUtr4)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Локация:&lt;/strong&gt; Denpasar, Indonesia (Бали).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Дата регистрации:&lt;/strong&gt; Апрель 2010 г.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Зацепка:&lt;/strong&gt; Имя &amp;ldquo;Adnyana Putra&amp;rdquo; (вытащено из ника). Это ключевая точка для поиска реального профиля.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-творческие-платформы-deviantart&#34;&gt;2. Творческие платформы (DeviantArt)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Стаж:&lt;/strong&gt; 16 лет.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Локация в профиле:&lt;/strong&gt; Швеция (возможный VPN или старое место жительства).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Интересы:&lt;/strong&gt; Графика, дизайн.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-технический-бэкграунд-reddit&#34;&gt;3. Технический бэкграунд (Reddit)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Активность:&lt;/strong&gt; Сабреддит &lt;code&gt;r/netsec&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Вывод:&lt;/strong&gt; Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-примененные-методы&#34;&gt;🛠 Примененные методы&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Синтаксический анализ ника:&lt;/strong&gt; Расшифровка &lt;code&gt;4dny4Na pUtr4&lt;/code&gt; -&amp;gt; &lt;code&gt;Adnyana Putra&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Кросс-платформенный поиск:&lt;/strong&gt; Использование Blackbird для подтверждения уникальности ника на разных сервисах.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Геолокационный анализ:&lt;/strong&gt; Сверка данных из Twitter и DeviantArt.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-итог&#34;&gt;🚩 Итог&lt;/h3&gt;
+&lt;p&gt;Объект — опытный пользователь (стаж 15+ лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Полный гайд по кастомизации Termux: fsociety Style</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/termux-fsociety-setup/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/termux-fsociety-setup/</guid>
+      <description>Пошаговая инструкция по превращению Termux в хакерский терминал</description>
+    </item>
+    <item>
+      <title>OSINT в кармане: Установка Sherlock и Blackbird в Termux</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</link>
+      <pubDate>Fri, 13 Mar 2026 17:32:07 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;tags-osint-termux-sherlock-blackbird&#34;&gt;title: &amp;ldquo;OSINT в кармане: Установка Sherlock и Blackbird в Termux&amp;rdquo;
+date: 2026-03-13
+draft: false
+tags: [&amp;ldquo;OSINT&amp;rdquo;, &amp;ldquo;Termux&amp;rdquo;, &amp;ldquo;Sherlock&amp;rdquo;, &amp;ldquo;Blackbird&amp;rdquo;]&lt;/h2&gt;
+&lt;p&gt;Поиск информации о человеке по никнейму — одна из базовых задач в OSINT. Для этого не обязательно иметь ПК с Kali Linux, достаточно смартфона с Android и установленным Termux.&lt;/p&gt;
+&lt;h3 id=&#34;подготовка-системы&#34;&gt;Подготовка системы&lt;/h3&gt;
+&lt;p&gt;Перед установкой инструментов обновим пакеты и установим Python с Git:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bash
+pkg update &amp;amp;&amp;amp; pkg upgrade
+pkg install python git rust binutils
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;:Установка Sherlock:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OSINT Dashboard: Мониторинг</title>
+      <link>https://kilaura-tribe.github.io/myblog/page/dashboard/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/page/dashboard/</guid>
+      <description>&lt;p&gt;Инструменты мониторинга в реальном времени для оперативной работы.&lt;/p&gt;
+&lt;h3 id=&#34;-воздушный-трафик-flightradar24&#34;&gt;✈️ Воздушный трафик (FlightRadar24)&lt;/h3&gt;
+&lt;iframe src=&#34;https://www.flightradar24.com/simple_index.php?lat=55.7&amp;lon=37.6&amp;z=8&#34; width=&#34;100%&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;-морской-трафик-marinetraffic&#34;&gt;🚢 Морской трафик (MarineTraffic)&lt;/h3&gt;
+&lt;iframe src=&#34;https://www.marinetraffic.com/en/ais/embed/zoom:5/centery:55/centerx:37/maptype:4/shownames:false/mmsi:0/shipid:0/fleet:/fleet_id:/vessel:0/container:true/showmenu:false/remember:false&#34; width=&#34;100%&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;-мониторинг-кибер-атак-kaspersky-cybermap&#34;&gt;🛡 Мониторинг кибер-атак (Kaspersky Cybermap)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://cybermap.kaspersky.com/ru/widget/dynamic/dark&#34;&gt;Открыть карту кибер-атак в новом окне&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Данные обновляются в реальном времени. Используйте для анализа обстановки.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;-мировое-время&#34;&gt;🌍 Мировое время&lt;/h3&gt;
+&lt;iframe src=&#34;https://www.clocklink.com/clocks/worldclock001-gray.html?World_Clock&amp;&#34; width=&#34;100%&#34; height=&#34;250&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;-спутниковые-снимки-nasa&#34;&gt;🛰 Спутниковые снимки (NASA)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://worldview.earthdata.nasa.gov/&#34;&gt;Посмотреть актуальные снимки Земли&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Как узнать всё о железе своего Android</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/android-hardware-guide/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/android-hardware-guide/</guid>
+      <description>&lt;p&gt;Часто производители смартфонов скрывают точные характеристики компонентов. Вот лучшие способы вывести их на чистую воду:&lt;/p&gt;
+&lt;h3 id=&#34;1-device-info-hw&#34;&gt;1. Device Info HW&lt;/h3&gt;
+&lt;p&gt;Это база. Приложение показывает:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Модель сенсора камеры:&lt;/strong&gt; (например, Sony IMX или Samsung ISOCELL).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Тип памяти:&lt;/strong&gt; UFS 3.1 или медленная eMMC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Панель экрана:&lt;/strong&gt; кто производитель матрицы.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-специфические-тесты&#34;&gt;2. Специфические тесты&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DevCheck:&lt;/strong&gt; если нужно мониторить частоту каждого ядра процессора в реальном времени.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AccuBattery:&lt;/strong&gt; лучший способ узнать реальную емкость аккумулятора, а не ту, что написана на коробке.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Burnout Benchmark:&lt;/strong&gt; серьезный тест для проверки системы охлаждения на троттлинг.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-метод-termux&#34;&gt;3. Метод Termux&lt;/h3&gt;
+&lt;p&gt;Раз мы любим консоль, можно вытянуть часть инфы прямо из системы:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Как я поднял этот сайт прямо в Termux</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/how-i-built-this-site/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/how-i-built-this-site/</guid>
+      <description>&lt;p&gt;Зачем использовать тяжелый ПК, если всё можно сделать на Android? В этом посте я расскажу, как этот блог был собран с нуля в консоли Termux.&lt;/p&gt;
+&lt;h3 id=&#34;-мой-набор-инструментов&#34;&gt;🛠 Мой набор инструментов&lt;/h3&gt;
+&lt;p&gt;Для работы мне понадобилось всего три вещи:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Termux&lt;/strong&gt; — терминал для Android.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; — генератор статических сайтов (быстрый и легкий).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — место, где сайт живет и откуда открывается миру.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;-основные-этапы-сборки&#34;&gt;📝 Основные этапы сборки&lt;/h3&gt;
+&lt;p&gt;Весь процесс можно уместить в несколько команд.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Список проверенных OSINT ботов в Telegram (2026)</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/osint-telegram-bots-2026/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/osint-telegram-bots-2026/</guid>
+      <description>&lt;p&gt;Этот список я обновляю лично. Только то, что работает и не спамит.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Бот&lt;/th&gt;
+          &lt;th&gt;Функция&lt;/th&gt;
+          &lt;th&gt;Статус&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;@QuickOSINT_bot&lt;/td&gt;
+          &lt;td&gt;Поиск по номеру / почте&lt;/td&gt;
+          &lt;td&gt;Работает&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;@EyeOfGod_bot&lt;/td&gt;
+          &lt;td&gt;Комплексный пробив (UA/RU)&lt;/td&gt;
+          &lt;td&gt;Работает&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;@Maigret_bot&lt;/td&gt;
+          &lt;td&gt;Поиск аккаунтов по нику&lt;/td&gt;
+          &lt;td&gt;Бесплатно&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Совет:&lt;/strong&gt; Никогда не вводи свои реальные данные в ботов. Используй &amp;ldquo;чистый&amp;rdquo; аккаунт.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Топ утилит для диагностики ПК</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/pc-hardware-tools/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/pc-hardware-tools/</guid>
+      <description>&lt;p&gt;Если твой ПК начал вести себя странно или ты только что собрал новую систему, эти инструменты помогут найти слабое звено:&lt;/p&gt;
+&lt;h3 id=&#34;1-тестирование-стабильности-стресс-тесты&#34;&gt;1. Тестирование стабильности (Стресс-тесты)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AIDA64&lt;/strong&gt; — классика. Позволяет нагрузить процессор и память, чтобы проверить, справляется ли система охлаждения.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OCCT&lt;/strong&gt; — более жесткий тест. Идеален для поиска проблем с блоком питания и цепями питания материнской платы.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TestMem5&lt;/strong&gt; — если компьютер вылетает с &amp;ldquo;синим экраном&amp;rdquo; (BSOD), прогони память этим тестом.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-мониторинг-и-температуры&#34;&gt;2. Мониторинг и температуры&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HWMonitor&lt;/strong&gt; — простая и легкая программа, чтобы видеть температуры всех датчиков в одном окне.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CrystalDiskInfo&lt;/strong&gt; — покажет, сколько &amp;ldquo;жизни&amp;rdquo; осталось у твоего SSD и нет ли битых секторов на жестком диске.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-проверка-видеокарты&#34;&gt;3. Проверка видеокарты&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FurMark&lt;/strong&gt; — знаменитый &amp;ldquo;бублик&amp;rdquo;. Если видеокарта держит этот тест 15 минут и не перегревается выше 80-85 градусов — с ней всё в порядке.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU-Z&lt;/strong&gt; — покажет реальные характеристики видеокарты, чтобы убедиться, что тебе не продали подделку с перешитым биосом.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Важно:&lt;/strong&gt; Во время стресс-тестов всегда следи за температурой. Если видишь 95+ градусов — немедленно выключай тест!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Установка Sherlock и Blackbird в Termux</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/setup-sherlock/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/setup-sherlock/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Цифровая гигиена: Инструменты анонимности</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/security-privacy-tools/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/security-privacy-tools/</guid>
+      <description>&lt;p&gt;В OSINT безопасность — это не паранойя, а необходимость. Вот базовый набор инструментов для защиты своих данных:&lt;/p&gt;
+&lt;h3 id=&#34;1-браузеры-и-расширения&#34;&gt;1. Браузеры и расширения&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mullvad Browser&lt;/strong&gt; — проект от создателей Tor, настроенный на максимальную защиту от &amp;ldquo;отпечатков&amp;rdquo; браузера (fingerprinting).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brave&lt;/strong&gt; — хороший выбор для повседневного использования с вырезанной рекламой и трекерами.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;uBlock Origin&lt;/strong&gt; — обязательное расширение для любого браузера. Блокирует не только рекламу, но и скрытые скрипты слежки.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-почта-и-связь&#34;&gt;2. Почта и связь&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ProtonMail&lt;/strong&gt; — зашифрованная почта из Швейцарии. Не требует номер телефона при регистрации через Tor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SimpleLogin&lt;/strong&gt; — сервис для создания почтовых алиасов. Позволяет не &amp;ldquo;светить&amp;rdquo; основную почту на сомнительных ресурсах.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-vpn-и-прокси&#34;&gt;3. VPN и прокси&lt;/h3&gt;
+&lt;p&gt;Для OSINT лучше использовать проверенные платные решения с открытым исходным кодом, такие как &lt;strong&gt;Mullvad VPN&lt;/strong&gt; или &lt;strong&gt;IVPN&lt;/strong&gt;. Они не ведут логи и позволяют выходить в сеть под другими IP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Установка Nexfil: Подробный гайд</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</guid>
+      <description>&lt;p&gt;Привет! В этом гайде мы пошагово разберем, как установить &lt;strong&gt;Nexfil&lt;/strong&gt; — мощный инструмент для OSINT, который ищет аккаунты по никнейму более чем на 350 ресурсах.&lt;/p&gt;
+&lt;p&gt;Ниже приведен список команд. Вводи их в Termux по очереди.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;инструкция-по-установке&#34;&gt;Инструкция по установке:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Обновление системы&lt;/strong&gt; Эта команда обновляет список доступных программ и их версии:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;pkg update &amp;amp;&amp;amp; pkg upgrade -y```&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Установка Git и Python Git нужен для скачивания кода с GitHub, а Python — для работы самой программы:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

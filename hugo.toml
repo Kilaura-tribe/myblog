@@ -4,9 +4,14 @@ title = 'My and You Very Osint'
 publishDir = "docs"
 theme = 'PaperMod'
 
-[params.homeInfoParams]
-    Title = "Привет! Я интересуюсь OSINT 🔍"
-    Content = "Здесь я делюсь гайдами по Termux и результатами расследований."
+[params]
+    env = "production"
+    title = "Albert Kabuu | OSINT"
+    mainSections = ["posts", "log"]
+    
+    [params.label]
+        text = "🔍 KABUU_LOGS"
+        icon = "/apple-touch-icon.png" # Это подтянет стандартную иконку, если она есть
 
 #[[params.socialIcons]]
 #    name = "github"

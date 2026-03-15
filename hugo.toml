@@ -16,8 +16,19 @@ theme = 'PaperMod'
 #    url = "https://t.me/ваш-ник"
 
 [params]
+    mainSections = ["posts", "log", "content"]    
     showCodeCopyButtons = true
 [menu]
+[[menu.main]]
+    identifier = "tools"
+    name = "Арсенал"
+    url = "/tools/"
+    weight = 15
+[[menu.main]]
+    identifier = "log"
+    name = "Расследования"
+    url = "/log/"
+    weight = 25
     [[menu.main]]
         identifier = "osint"
         name = "OSINT"

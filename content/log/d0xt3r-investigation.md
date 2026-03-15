@@ -1,9 +1,4 @@
 ---
-title: "OSINT Кейс: d0xt3r — Цифровой след длиной в 16 лет"
-date: 2026-03-15T21:00:00Z
-draft: false
----
----
 title: "OSINT Кейс: d0xt3r — Цифровой след"
 date: 2026-03-15T21:00:00Z
 draft: false

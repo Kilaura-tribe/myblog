@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>OSINT Кейс: d0xt3r — Цифровой след | My and You Very Osint</title>
+<meta name="keywords" content="">
+<meta name="description" content="🟢 Вводные данные
+
+Target: d0xt3r
+Инструменты: Snoop, Blackbird, Reddit, OSINT Framework.
+Цель: Деанонимизация и поиск связей.
+
+
+🔍 Анализ активности
+1. Социальные сети (Twitter / X)
+
+Аккаунт: @d0xt3r (4dny4Na pUtr4)
+Локация: Denpasar, Indonesia (Бали).
+Дата регистрации: Апрель 2010 г.
+Зацепка: Имя &ldquo;Adnyana Putra&rdquo; (вытащено из ника). Это ключевая точка для поиска реального профиля.
+
+2. Творческие платформы (DeviantArt)
+
+Стаж: 16 лет.
+Локация в профиле: Швеция (возможный VPN или старое место жительства).
+Интересы: Графика, дизайн.
+
+3. Технический бэкграунд (Reddit)
+
+Активность: Сабреддит r/netsec.
+Вывод: Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak).
+
+
+🛠 Примененные методы
+
+Синтаксический анализ ника: Расшифровка 4dny4Na pUtr4 -&gt; Adnyana Putra.
+Кросс-платформенный поиск: Использование Blackbird для подтверждения уникальности ника на разных сервисах.
+Геолокационный анализ: Сверка данных из Twitter и DeviantArt.
+
+
+🚩 Итог
+Объект — опытный пользователь (стаж 15&#43; лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.">
+<meta name="author" content="">
+<link rel="canonical" href="https://kilaura-tribe.github.io/myblog/posts/d0xt3r-investigation/">
+<link crossorigin="anonymous" href="/myblog/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://kilaura-tribe.github.io/myblog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kilaura-tribe.github.io/myblog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kilaura-tribe.github.io/myblog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kilaura-tribe.github.io/myblog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kilaura-tribe.github.io/myblog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://kilaura-tribe.github.io/myblog/posts/d0xt3r-investigation/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://kilaura-tribe.github.io/myblog/posts/d0xt3r-investigation/">
+  <meta property="og:site_name" content="My and You Very Osint">
+  <meta property="og:title" content="OSINT Кейс: d0xt3r — Цифровой след">
+  <meta property="og:description" content="🟢 Вводные данные Target: d0xt3r Инструменты: Snoop, Blackbird, Reddit, OSINT Framework. Цель: Деанонимизация и поиск связей. 🔍 Анализ активности 1. Социальные сети (Twitter / X) Аккаунт: @d0xt3r (4dny4Na pUtr4) Локация: Denpasar, Indonesia (Бали). Дата регистрации: Апрель 2010 г. Зацепка: Имя “Adnyana Putra” (вытащено из ника). Это ключевая точка для поиска реального профиля. 2. Творческие платформы (DeviantArt) Стаж: 16 лет. Локация в профиле: Швеция (возможный VPN или старое место жительства). Интересы: Графика, дизайн. 3. Технический бэкграунд (Reddit) Активность: Сабреддит r/netsec. Вывод: Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak). 🛠 Примененные методы Синтаксический анализ ника: Расшифровка 4dny4Na pUtr4 -&gt; Adnyana Putra. Кросс-платформенный поиск: Использование Blackbird для подтверждения уникальности ника на разных сервисах. Геолокационный анализ: Сверка данных из Twitter и DeviantArt. 🚩 Итог Объект — опытный пользователь (стаж 15&#43; лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-15T21:00:00+00:00">
+    <meta property="article:modified_time" content="2026-03-15T21:00:00+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="OSINT Кейс: d0xt3r — Цифровой след">
+  <meta name="twitter:description" content="🟢 Вводные данные Target: d0xt3r Инструменты: Snoop, Blackbird, Reddit, OSINT Framework. Цель: Деанонимизация и поиск связей. 🔍 Анализ активности 1. Социальные сети (Twitter / X) Аккаунт: @d0xt3r (4dny4Na pUtr4) Локация: Denpasar, Indonesia (Бали). Дата регистрации: Апрель 2010 г. Зацепка: Имя “Adnyana Putra” (вытащено из ника). Это ключевая точка для поиска реального профиля. 2. Творческие платформы (DeviantArt) Стаж: 16 лет. Локация в профиле: Швеция (возможный VPN или старое место жительства). Интересы: Графика, дизайн. 3. Технический бэкграунд (Reddit) Активность: Сабреддит r/netsec. Вывод: Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak). 🛠 Примененные методы Синтаксический анализ ника: Расшифровка 4dny4Na pUtr4 -&gt; Adnyana Putra. Кросс-платформенный поиск: Использование Blackbird для подтверждения уникальности ника на разных сервисах. Геолокационный анализ: Сверка данных из Twitter и DeviantArt. 🚩 Итог Объект — опытный пользователь (стаж 15&#43; лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://kilaura-tribe.github.io/myblog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "OSINT Кейс: d0xt3r — Цифровой след",
+      "item": "https://kilaura-tribe.github.io/myblog/posts/d0xt3r-investigation/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "OSINT Кейс: d0xt3r — Цифровой след",
+  "name": "OSINT Кейс: d0xt3r — Цифровой след",
+  "description": "🟢 Вводные данные Target: d0xt3r Инструменты: Snoop, Blackbird, Reddit, OSINT Framework. Цель: Деанонимизация и поиск связей. 🔍 Анализ активности 1. Социальные сети (Twitter / X) Аккаунт: @d0xt3r (4dny4Na pUtr4) Локация: Denpasar, Indonesia (Бали). Дата регистрации: Апрель 2010 г. Зацепка: Имя \u0026ldquo;Adnyana Putra\u0026rdquo; (вытащено из ника). Это ключевая точка для поиска реального профиля. 2. Творческие платформы (DeviantArt) Стаж: 16 лет. Локация в профиле: Швеция (возможный VPN или старое место жительства). Интересы: Графика, дизайн. 3. Технический бэкграунд (Reddit) Активность: Сабреддит r/netsec. Вывод: Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak). 🛠 Примененные методы Синтаксический анализ ника: Расшифровка 4dny4Na pUtr4 -\u0026gt; Adnyana Putra. Кросс-платформенный поиск: Использование Blackbird для подтверждения уникальности ника на разных сервисах. Геолокационный анализ: Сверка данных из Twitter и DeviantArt. 🚩 Итог Объект — опытный пользователь (стаж 15+ лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "🟢 Вводные данные Target: d0xt3r Инструменты: Snoop, Blackbird, Reddit, OSINT Framework. Цель: Деанонимизация и поиск связей. 🔍 Анализ активности 1. Социальные сети (Twitter / X) Аккаунт: @d0xt3r (4dny4Na pUtr4) Локация: Denpasar, Indonesia (Бали). Дата регистрации: Апрель 2010 г. Зацепка: Имя “Adnyana Putra” (вытащено из ника). Это ключевая точка для поиска реального профиля. 2. Творческие платформы (DeviantArt) Стаж: 16 лет. Локация в профиле: Швеция (возможный VPN или старое место жительства). Интересы: Графика, дизайн. 3. Технический бэкграунд (Reddit) Активность: Сабреддит r/netsec. Вывод: Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak). 🛠 Примененные методы Синтаксический анализ ника: Расшифровка 4dny4Na pUtr4 -\u003e Adnyana Putra. Кросс-платформенный поиск: Использование Blackbird для подтверждения уникальности ника на разных сервисах. Геолокационный анализ: Сверка данных из Twitter и DeviantArt. 🚩 Итог Объект — опытный пользователь (стаж 15+ лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.\nСтатус: В процессе глубокого пробива (поиск LinkedIn/Facebook).\n",
+  "wordCount" : "160",
+  "inLanguage": "en",
+  "datePublished": "2026-03-15T21:00:00Z",
+  "dateModified": "2026-03-15T21:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kilaura-tribe.github.io/myblog/posts/d0xt3r-investigation/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "My and You Very Osint",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kilaura-tribe.github.io/myblog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://kilaura-tribe.github.io/myblog/" accesskey="h" title="My and You Very Osint (Alt + H)">My and You Very Osint</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/tags/osint/" title="OSINT">
+                    <span>OSINT</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/tools/" title="Арсенал">
+                    <span>Арсенал</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/tags/termux/" title="Termux">
+                    <span>Termux</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/log/" title="Расследования">
+                    <span>Расследования</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/tags/hardware/" title="Железо">
+                    <span>Железо</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://kilaura-tribe.github.io/myblog/search/" title="Поиск (Alt &#43; /)" accesskey=/>
+                    <span>Поиск</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      OSINT Кейс: d0xt3r — Цифровой след
+    </h1>
+    <div class="post-meta"><span title='2026-03-15 21:00:00 +0000 UTC'>March 15, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="-вводные-данные">🟢 Вводные данные<a hidden class="anchor" aria-hidden="true" href="#-вводные-данные">#</a></h3>
+<ul>
+<li><strong>Target:</strong> d0xt3r</li>
+<li><strong>Инструменты:</strong> Snoop, Blackbird, Reddit, OSINT Framework.</li>
+<li><strong>Цель:</strong> Деанонимизация и поиск связей.</li>
+</ul>
+<hr>
+<h3 id="-анализ-активности">🔍 Анализ активности<a hidden class="anchor" aria-hidden="true" href="#-анализ-активности">#</a></h3>
+<h4 id="1-социальные-сети-twitter--x">1. Социальные сети (Twitter / X)<a hidden class="anchor" aria-hidden="true" href="#1-социальные-сети-twitter--x">#</a></h4>
+<ul>
+<li><strong>Аккаунт:</strong> <code>@d0xt3r</code> (4dny4Na pUtr4)</li>
+<li><strong>Локация:</strong> Denpasar, Indonesia (Бали).</li>
+<li><strong>Дата регистрации:</strong> Апрель 2010 г.</li>
+<li><strong>Зацепка:</strong> Имя &ldquo;Adnyana Putra&rdquo; (вытащено из ника). Это ключевая точка для поиска реального профиля.</li>
+</ul>
+<h4 id="2-творческие-платформы-deviantart">2. Творческие платформы (DeviantArt)<a hidden class="anchor" aria-hidden="true" href="#2-творческие-платформы-deviantart">#</a></h4>
+<ul>
+<li><strong>Стаж:</strong> 16 лет.</li>
+<li><strong>Локация в профиле:</strong> Швеция (возможный VPN или старое место жительства).</li>
+<li><strong>Интересы:</strong> Графика, дизайн.</li>
+</ul>
+<h4 id="3-технический-бэкграунд-reddit">3. Технический бэкграунд (Reddit)<a hidden class="anchor" aria-hidden="true" href="#3-технический-бэкграунд-reddit">#</a></h4>
+<ul>
+<li><strong>Активность:</strong> Сабреддит <code>r/netsec</code>.</li>
+<li><strong>Вывод:</strong> Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak).</li>
+</ul>
+<hr>
+<h3 id="-примененные-методы">🛠 Примененные методы<a hidden class="anchor" aria-hidden="true" href="#-примененные-методы">#</a></h3>
+<ol>
+<li><strong>Синтаксический анализ ника:</strong> Расшифровка <code>4dny4Na pUtr4</code> -&gt; <code>Adnyana Putra</code>.</li>
+<li><strong>Кросс-платформенный поиск:</strong> Использование Blackbird для подтверждения уникальности ника на разных сервисах.</li>
+<li><strong>Геолокационный анализ:</strong> Сверка данных из Twitter и DeviantArt.</li>
+</ol>
+<hr>
+<h3 id="-итог">🚩 Итог<a hidden class="anchor" aria-hidden="true" href="#-итог">#</a></h3>
+<p>Объект — опытный пользователь (стаж 15+ лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.</p>
+<p><strong>Статус:</strong> В процессе глубокого пробива (поиск LinkedIn/Facebook).</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://kilaura-tribe.github.io/myblog/">My and You Very Osint</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'копировать';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'скопировано!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'копировать';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

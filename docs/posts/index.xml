@@ -6,8 +6,50 @@
     <description>Recent content in Posts on My and You Very Osint</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 21:00:00 +0000</lastBuildDate>
     <atom:link href="https://kilaura-tribe.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSINT Кейс: d0xt3r — Цифровой след</title>
+      <link>https://kilaura-tribe.github.io/myblog/posts/d0xt3r-investigation/</link>
+      <pubDate>Sun, 15 Mar 2026 21:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/posts/d0xt3r-investigation/</guid>
+      <description>&lt;h3 id=&#34;-вводные-данные&#34;&gt;🟢 Вводные данные&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Target:&lt;/strong&gt; d0xt3r&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Инструменты:&lt;/strong&gt; Snoop, Blackbird, Reddit, OSINT Framework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Цель:&lt;/strong&gt; Деанонимизация и поиск связей.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-анализ-активности&#34;&gt;🔍 Анализ активности&lt;/h3&gt;
+&lt;h4 id=&#34;1-социальные-сети-twitter--x&#34;&gt;1. Социальные сети (Twitter / X)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Аккаунт:&lt;/strong&gt; &lt;code&gt;@d0xt3r&lt;/code&gt; (4dny4Na pUtr4)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Локация:&lt;/strong&gt; Denpasar, Indonesia (Бали).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Дата регистрации:&lt;/strong&gt; Апрель 2010 г.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Зацепка:&lt;/strong&gt; Имя &amp;ldquo;Adnyana Putra&amp;rdquo; (вытащено из ника). Это ключевая точка для поиска реального профиля.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-творческие-платформы-deviantart&#34;&gt;2. Творческие платформы (DeviantArt)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Стаж:&lt;/strong&gt; 16 лет.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Локация в профиле:&lt;/strong&gt; Швеция (возможный VPN или старое место жительства).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Интересы:&lt;/strong&gt; Графика, дизайн.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-технический-бэкграунд-reddit&#34;&gt;3. Технический бэкграунд (Reddit)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Активность:&lt;/strong&gt; Сабреддит &lt;code&gt;r/netsec&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Вывод:&lt;/strong&gt; Объект интересуется сетевой безопасностью, что объясняет использование ников с заменой букв (Leetspeak).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-примененные-методы&#34;&gt;🛠 Примененные методы&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Синтаксический анализ ника:&lt;/strong&gt; Расшифровка &lt;code&gt;4dny4Na pUtr4&lt;/code&gt; -&amp;gt; &lt;code&gt;Adnyana Putra&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Кросс-платформенный поиск:&lt;/strong&gt; Использование Blackbird для подтверждения уникальности ника на разных сервисах.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Геолокационный анализ:&lt;/strong&gt; Сверка данных из Twitter и DeviantArt.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-итог&#34;&gt;🚩 Итог&lt;/h3&gt;
+&lt;p&gt;Объект — опытный пользователь (стаж 15+ лет). Несмотря на попытки скрыть локацию (Швеция/Бали), использование реального имени в зашифрованном нике позволило сузить круг поиска до конкретного региона и ФИО.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Полный гайд по кастомизации Termux: fsociety Style</title>
       <link>https://kilaura-tribe.github.io/myblog/posts/termux-fsociety-setup/</link>

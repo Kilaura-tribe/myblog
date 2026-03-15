@@ -58,13 +58,6 @@
       <description>Пошаговая инструкция по превращению Termux в хакерский терминал</description>
     </item>
     <item>
-      <title>Hardware Check</title>
-      <link>https://kilaura-tribe.github.io/myblog/posts/hardware-check/</link>
-      <pubDate>Fri, 13 Mar 2026 19:19:00 +0000</pubDate>
-      <guid>https://kilaura-tribe.github.io/myblog/posts/hardware-check/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>OSINT в кармане: Установка Sherlock и Blackbird в Termux</title>
       <link>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</link>
       <pubDate>Fri, 13 Mar 2026 17:32:07 +0000</pubDate>
@@ -207,13 +200,6 @@ pkg install python git rust binutils
 &lt;/ul&gt;
 &lt;h3 id=&#34;3-vpn-и-прокси&#34;&gt;3. VPN и прокси&lt;/h3&gt;
 &lt;p&gt;Для OSINT лучше использовать проверенные платные решения с открытым исходным кодом, такие как &lt;strong&gt;Mullvad VPN&lt;/strong&gt; или &lt;strong&gt;IVPN&lt;/strong&gt;. Они не ведут логи и позволяют выходить в сеть под другими IP.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://kilaura-tribe.github.io/myblog/posts/my-first-post/</link>
-      <pubDate>Wed, 11 Mar 2026 12:10:54 +0000</pubDate>
-      <guid>https://kilaura-tribe.github.io/myblog/posts/my-first-post/</guid>
-      <description></description>
     </item>
     <item>
       <title>Установка Nexfil: Подробный гайд</title>

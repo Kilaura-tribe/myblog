@@ -7,7 +7,7 @@ theme = 'PaperMod'
 [params]
     env = "production"
     title = "Albert Kabuu | OSINT"
-    mainSections = ["posts", "log"]
+    mainSections = ["posts", "log", "tools"]
     
     [params.label]
         text = "🔍 KABUU_LOGS"
@@ -20,7 +20,7 @@ theme = 'PaperMod'
 #    name = "telegram"
 #    url = "https://t.me/ваш-ник"
 
-    mainSections = ["posts", "log"]    
+    mainSections = ["posts", "log", "tools"]
     showCodeCopyButtons = true
 [menu]
 [[menu.main]]

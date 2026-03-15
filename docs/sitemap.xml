@@ -2,13 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kilaura-tribe.github.io/myblog/</loc>
-    <lastmod>2026-03-15T20:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/tools/</loc>
-    <lastmod>2026-03-15T20:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/log/</loc>
+    <lastmod>2026-03-15T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/</loc>
     <lastmod>2026-03-15T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/log/2026-03-15-log/</loc>
@@ -26,7 +23,7 @@
     <loc>https://kilaura-tribe.github.io/myblog/posts/arsenal/</loc>
     <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/posts/case1/</loc>
+    <loc>https://kilaura-tribe.github.io/myblog/log/case1/</loc>
     <lastmod>2026-03-14T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/tags/fsociety/</loc>
@@ -46,9 +43,6 @@
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/posts/termux-fsociety-setup/</loc>
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/posts/hardware-check/</loc>
-    <lastmod>2026-03-13T19:19:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/posts/osint-termux-guide/</loc>
     <lastmod>2026-03-13T17:32:07+00:00</lastmod>
@@ -86,11 +80,10 @@
     <loc>https://kilaura-tribe.github.io/myblog/posts/security-privacy-tools/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/posts/my-first-post/</loc>
-    <lastmod>2026-03-11T12:10:54+00:00</lastmod>
-  </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/posts/%D1%83%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_netfix/</loc>
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/tools/</loc>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/search/</loc>
   </url>

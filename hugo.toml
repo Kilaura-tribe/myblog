@@ -66,3 +66,6 @@ theme = 'PaperMod'
     name = "Ресурсы"
     url = "/links/"
     weight = 15
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]

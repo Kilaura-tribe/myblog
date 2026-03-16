@@ -46,6 +46,22 @@
 &lt;hr&gt;</description>
     </item>
     <item>
+      <title>Изоляция: Как не подцепить трекер при поиске</title>
+      <link>https://kilaura-tribe.github.io/myblog/log/isolation-guide/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/log/isolation-guide/</guid>
+      <description>&lt;p&gt;OSINT-исследователь часто заходит на сайты, которые «кусаются». Обычного режима инкогнито недостаточно.&lt;/p&gt;
+&lt;h3 id=&#34;главная-ошибка&#34;&gt;Главная ошибка&lt;/h3&gt;
+&lt;p&gt;Многие думают, что VPN скрывает всё. Но если сайт использует продвинутый фингерпринтинг, он узнает разрешение вашего экрана, список шрифтов и даже версию процессора.&lt;/p&gt;
+&lt;h3 id=&#34;мой-стек-для-защиты&#34;&gt;Мой стек для защиты:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Контейнеры&lt;/strong&gt;: Используйте Firefox Multi-Account Containers, чтобы разделить личные аккаунты и работу.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Одноразовые вкладки&lt;/strong&gt;: Сервисы вроде &lt;strong&gt;SquareX&lt;/strong&gt; позволяют создать облачную вкладку. Если сайт вредоносный — он умрет вместе с вкладкой на их сервере, а не на вашем телефоне.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mullvad Browser&lt;/strong&gt;: Если нужно быть «как все», этот браузер делает ваш отпечаток идентичным тысячам других пользователей, превращая вас в «серого человечка» в толпе.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Помните: Безопасность — это не инструмент, это процесс.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Карта связей: Объект Passenger_01</title>
       <link>https://kilaura-tribe.github.io/myblog/log/target-map/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>

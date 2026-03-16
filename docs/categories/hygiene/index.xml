@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Security on My and You Very Osint</title>
-    <link>https://kilaura-tribe.github.io/myblog/categories/security/</link>
-    <description>Recent content in Security on My and You Very Osint</description>
+    <title>Hygiene on My and You Very Osint</title>
+    <link>https://kilaura-tribe.github.io/myblog/categories/hygiene/</link>
+    <description>Recent content in Hygiene on My and You Very Osint</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kilaura-tribe.github.io/myblog/categories/security/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>VPN для OSINT: Как не оставить следов</title>
-      <link>https://kilaura-tribe.github.io/myblog/log/vpn-guide/</link>
-      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://kilaura-tribe.github.io/myblog/log/vpn-guide/</guid>
-      <description>&lt;p&gt;Работа без VPN — это как оставлять отпечатки пальцев на месте осмотра. Разбираемся, какой инструмент выбрать.&lt;/p&gt;
-&lt;h3 id=&#34;бесплатные-сервисы-proton-windscribe&#34;&gt;Бесплатные сервисы (Proton, Windscribe)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Плюсы:&lt;/strong&gt; Бесплатно.
-&lt;strong&gt;Минусы:&lt;/strong&gt; Ограничение скорости, мало локаций.
-&lt;em&gt;Вердикт:&lt;/em&gt; Подходит для чтения реестров, но не для глубокой работы.&lt;/p&gt;
-&lt;h3 id=&#34;платные-гиганты-mullvad-mullvad&#34;&gt;Платные гиганты (Mullvad, Mullvad)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Плюсы:&lt;/strong&gt; Максимальная анонимность, оплата криптой, функция Kill Switch.
-&lt;strong&gt;Минусы:&lt;/strong&gt; Требуют подписки.
-&lt;em&gt;Вердикт:&lt;/em&gt; Выбор профессионала.&lt;/p&gt;
-&lt;h3 id=&#34;моя-рекомендация-opsec&#34;&gt;Моя рекомендация (OPSEC):&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Используйте &lt;strong&gt;Mullvad&lt;/strong&gt; для полной анонимности.&lt;/li&gt;
-&lt;li&gt;Всегда проверяйте утечку &lt;strong&gt;WebRTC&lt;/strong&gt; перед началом поиска.&lt;/li&gt;
-&lt;li&gt;Не заходите в личные аккаунты (Google, VK) под тем же VPN, под которым ведете расследование.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;</description>
-    </item>
+    <atom:link href="https://kilaura-tribe.github.io/myblog/categories/hygiene/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Изоляция: Как не подцепить трекер при поиске</title>
       <link>https://kilaura-tribe.github.io/myblog/log/isolation-guide/</link>

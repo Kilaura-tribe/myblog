@@ -61,3 +61,8 @@ theme = 'PaperMod'
     name = "Обо мне"
     url = "/about/"
     weight = 10
+
+[[menu.main]]
+    name = "Ресурсы"
+    url = "/links/"
+    weight = 15

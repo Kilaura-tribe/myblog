@@ -4,15 +4,28 @@ layout: "page"
 url: "/links/"
 ---
 
-### 🔍 Поиск по никнейму и почте
-* [Sherlock](https://github.com/sherlock-project/sherlock) — Поиск аккаунтов в 400+ соцсетях.
-* [EPIEOS](https://epieos.com/) — Поиск информации по Email.
+### 🔍 Общий поиск и Никнеймы
+* [Sherlock](https://github.com/sherlock-project/sherlock) — Поиск по 400+ сайтам.
+* [Maigret](https://github.com/sovereign/maigret) — Мощный инструмент для сбора досье по нику.
+* [EPIEOS](https://epieos.com/) — Разведка по адресу почты.
 
-### 📍 Геолокация и Карты
-* [Google Earth Pro](https://www.google.com/earth/) — Анализ спутниковых снимков.
-* [Wikimapia](http://wikimapia.org/) — Описание объектов на карте.
+### 🇺🇦 Украина (Реестры и Базы)
+* [YouControl](https://youcontrol.com.ua/) — Проверка компаний и ФОП.
+* [Opendatabot](https://opendatabot.ua/) — Мониторинг официальных данных.
+* [Судова влада](https://court.gov.ua/fms/show_all) — Поиск по судебным делам.
 
-### 👤 Социальные сети
-* [Search4Faces](https://search4faces.com/) — Поиск людей по фото в соцсетях.
+### 📱 Telegram & Соцсети
+* [TGStat](https://tgstat.ru/) — Аналитика каналов и чатов.
+* [Telemetr](https://telemetr.me/) — Детальный анализ Telegram-трафика.
+* [Search4Faces](https://search4faces.com/) — Поиск лиц в ВК и ОК.
 
-> **Tip:** Если сервис перестал работать, используйте VPN или Tor.
+### 📍 Карты и Транспорт
+* [Flightradar24](https://www.flightradar24.com/) — Отслеживание самолетов в реальном времени.
+* [MarineTraffic](https://www.marinetraffic.com/) — Мониторинг морских судов.
+* [SunCalc](https://www.suncalc.org/) — Определение времени по теням (для геолокации).
+
+### 🛡 Инструменты проверки
+* [VirusTotal](https://www.virustotal.com/) — Анализ подозрительных файлов и ссылок.
+* [URLScan.io](https://urlscan.io/) — Безопасный просмотр содержимого сайтов.
+
+> **Warning:** При работе с реестрами всегда используй защищенное соединение.

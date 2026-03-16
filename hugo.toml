@@ -56,3 +56,8 @@ theme = 'PaperMod'
 [markup.goldmark.renderer]
     unsafe = true
 
+
+[[menu.main]]
+    name = "Обо мне"
+    url = "/about/"
+    weight = 10

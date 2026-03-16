@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kilaura-tribe.github.io/myblog/categories/</loc>
+    <lastmod>2026-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/categories/log/</loc>
+    <lastmod>2026-03-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/log/</loc>
-    <lastmod>2026-03-15T12:00:00+00:00</lastmod>
+    <lastmod>2026-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/</loc>
-    <lastmod>2026-03-15T12:00:00+00:00</lastmod>
+    <lastmod>2026-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kilaura-tribe.github.io/myblog/log/target-status/</loc>
+    <lastmod>2026-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/log/2026-03-15-log/</loc>
     <lastmod>2026-03-15T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kilaura-tribe.github.io/myblog/categories/</loc>
-    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kilaura-tribe.github.io/myblog/posts/</loc>
     <lastmod>2026-03-15T00:00:00+00:00</lastmod>

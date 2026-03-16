@@ -6,8 +6,46 @@
     <description>Recent content on My and You Very Osint</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Sun, 15 Mar 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kilaura-tribe.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Мониторинг целей</title>
+      <link>https://kilaura-tribe.github.io/myblog/log/target-status/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/log/target-status/</guid>
+      <description>&lt;h3 id=&#34;текущее-состояние-объектов&#34;&gt;Текущее состояние объектов:&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Target ID&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Статус&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Уровень риска&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Активность&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Passenger_01&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🔴 Активен&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Высокий&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16.03.2026&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Passenger_02&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🟡 Наблюдение&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Средний&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16.03.2026&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Passenger_03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🟢 Идентифицирован&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Низкий&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16.03.2026&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description>
+    </item>
     <item>
       <title>Дневник:  Глубокий анализ через GitHub и генерация PDF</title>
       <link>https://kilaura-tribe.github.io/myblog/log/2026-03-15-log/</link>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Log on My and You Very Osint</title>
+    <link>https://kilaura-tribe.github.io/myblog/categories/log/</link>
+    <description>Recent content in Log on My and You Very Osint</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kilaura-tribe.github.io/myblog/categories/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Мониторинг целей</title>
+      <link>https://kilaura-tribe.github.io/myblog/log/target-status/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/log/target-status/</guid>
+      <description>&lt;h3 id=&#34;текущее-состояние-объектов&#34;&gt;Текущее состояние объектов:&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Target ID&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Статус&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Уровень риска&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Активность&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Passenger_01&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🔴 Активен&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Высокий&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16.03.2026&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Passenger_02&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🟡 Наблюдение&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Средний&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16.03.2026&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Passenger_03&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🟢 Идентифицирован&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Низкий&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;16.03.2026&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

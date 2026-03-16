@@ -28,6 +28,21 @@
 &lt;/blockquote&gt;</description>
     </item>
     <item>
+      <title>Консоль vs GUI: Почему я выбираю минимализм</title>
+      <link>https://kilaura-tribe.github.io/myblog/log/minimalism/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/log/minimalism/</guid>
+      <description>&lt;p&gt;После тестов тяжелого софта (Maltego) я пришел к выводу: для мобильного OSINT консольные утилиты выигрывают.&lt;/p&gt;
+&lt;h3 id=&#34;почему-консоль-в-termux-лучше&#34;&gt;Почему консоль в Termux лучше:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Скорость&lt;/strong&gt;: Текстовые данные обрабатываются мгновенно, без ожидания загрузки интерфейса.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ресурсы&lt;/strong&gt;: Батарея живет дольше, а оперативная память не забита Java-процессами.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Фокус&lt;/strong&gt;: Никаких лишних кнопок — только поиск и результат.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Мой выбор на сегодня — связка &lt;strong&gt;Sherlock + Maigret + SpiderFoot&lt;/strong&gt;. Этого достаточно для 90% задач.&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
       <title>Мониторинг целей</title>
       <link>https://kilaura-tribe.github.io/myblog/log/target-status/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>

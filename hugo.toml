@@ -1,4 +1,4 @@
-baseURL = 'https://kilaura-tribe.github.io/myblog/'
+baseURL = "https://kilaura-tribe.github.io/myblog/"
 languageCode = 'ru'
 title = 'My and You Very Osint'
 publishDir = "docs"

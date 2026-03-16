@@ -9,6 +9,21 @@
     <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kilaura-tribe.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>OSINT-минимализм: Быстрый старт с мобильного устройства</title>
+      <link>https://kilaura-tribe.github.io/myblog/log/fast-start-osint/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/log/fast-start-osint/</guid>
+      <description>&lt;p&gt;Когда нужно быстро «пробить» никнейм, не нужно открывать браузер и десятки вкладок. Достаточно консоли Termux и трех проверенных инструментов.&lt;/p&gt;
+&lt;h3 id=&#34;1-sherlock--массовый-охват&#34;&gt;1. Sherlock — Массовый охват&lt;/h3&gt;
+&lt;p&gt;Первый шаг — проверка регистрации на сотнях популярных ресурсов.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python sherlock nickname
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-maigret--глубокий-анализ&#34;&gt;2. Maigret — Глубокий анализ&lt;/h3&gt;
+&lt;p&gt;Если Sherlock дает список ссылок, то Maigret собирает данные &lt;em&gt;внутри&lt;/em&gt; аккаунтов: ищет ID, связанные почты и дополнительные имена.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maigret nickname
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-nexfil--скорость&#34;&gt;3. Nexfil — Скорость&lt;/h3&gt;
+&lt;p&gt;Когда время ограничено, Nexfil проверяет основные соцсети за считанные секунды благодаря многопоточности.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Карта связей: Объект Passenger_01</title>
       <link>https://kilaura-tribe.github.io/myblog/log/target-map/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>

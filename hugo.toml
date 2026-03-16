@@ -8,7 +8,8 @@ theme = 'PaperMod'
     env = "production"
     title = "Albert Kabuu | OSINT"
     mainSections = ["posts", "log", "tools"]
-    
+   favicon = "/favicon.ico"
+ 
     [params.label]
         text = "🔍 KABUU_LOGS"
         icon = "/apple-touch-icon.png" # Это подтянет стандартную иконку, если она есть
@@ -74,3 +75,4 @@ theme = 'PaperMod'
     name = "Методы"
     url = "/methods/"
     weight = 12
+params.favicon = "/favicon.ico"

@@ -69,3 +69,8 @@ theme = 'PaperMod'
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+    name = "Методы"
+    url = "/methods/"
+    weight = 12

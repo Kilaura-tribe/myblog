@@ -29,3 +29,8 @@ url: "/links/"
 * [URLScan.io](https://urlscan.io/) — Безопасный просмотр содержимого сайтов.
 
 > **Warning:** При работе с реестрами всегда используй защищенное соединение.
+
+### 📷 Фото и Видео OSINT
+* [PimEyes](https://pimeyes.com/) — Самый мощный поиск лиц в интернете.
+* [Yandex Images](https://yandex.com/images/) — Лучший алгоритм поиска копий фото.
+* [Jeffrey's Image Metadata Viewer](http://exif.regex.info/exif.cgi) — Глубокий анализ EXIF-данных (метаданных) снимка.

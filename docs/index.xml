@@ -66,18 +66,23 @@
       <link>https://kilaura-tribe.github.io/myblog/log/target-map/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://kilaura-tribe.github.io/myblog/log/target-map/</guid>
-      <description>&lt;p&gt;Визуализация цифрового следа объекта с помощью графов.&lt;/p&gt;
+      <description>&lt;p&gt;Визуализация цифрового следа.&lt;/p&gt;
 &lt;h3 id=&#34;схема-связей&#34;&gt;Схема связей:&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph TD
-    Target((Passenger_01)) --&amp;gt; Email[mail@example.com]
-    Target --&amp;gt; Phone[+380...]
-    Email --&amp;gt; Facebook[FB Profile]
-    Email --&amp;gt; Instagram[IG Profile]
-    Phone --&amp;gt; Telegram[TG Account]
-    Telegram --&amp;gt; Group1((BlackHat Chat))
-    Facebook --&amp;gt; Job[Company Name]
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;Данная схема построена на основе открытых данных из Sherlock и Maigret.&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;
+  
+graph TD
+    Target((Passenger_01)) --&gt; Email[mail@example.com]
+    Target --&gt; Phone[+380...]
+    Email --&gt; Facebook[FB Profile]
+    Email --&gt; Instagram[IG Profile]
+    Phone --&gt; Telegram[TG Account]
+    Telegram --&gt; Group1((BlackHat Chat))
+    Facebook --&gt; Job[Company Name]
+
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Данная схема построена на основе открытых данных.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     <item>

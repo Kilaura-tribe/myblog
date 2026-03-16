@@ -4,11 +4,11 @@ date: 2026-03-16
 categories: ["investigation"]
 ---
 
-Визуализация цифрового следа объекта с помощью графов.
+Визуализация цифрового следа.
 
 ### Схема связей:
 
-```mermaid
+{{< mermaid >}}
 graph TD
     Target((Passenger_01)) --> Email[mail@example.com]
     Target --> Phone[+380...]
@@ -17,6 +17,6 @@ graph TD
     Phone --> Telegram[TG Account]
     Telegram --> Group1((BlackHat Chat))
     Facebook --> Job[Company Name]
-```
+{{< /mermaid >}}
 
-> Данная схема построена на основе открытых данных из Sherlock и Maigret.
+> Данная схема построена на основе открытых данных.

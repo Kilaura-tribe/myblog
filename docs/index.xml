@@ -24,6 +24,28 @@
 &lt;p&gt;Когда время ограничено, Nexfil проверяет основные соцсети за считанные секунды благодаря многопоточности.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>VPN для OSINT: Как не оставить следов</title>
+      <link>https://kilaura-tribe.github.io/myblog/log/vpn-guide/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kilaura-tribe.github.io/myblog/log/vpn-guide/</guid>
+      <description>&lt;p&gt;Работа без VPN — это как оставлять отпечатки пальцев на месте осмотра. Разбираемся, какой инструмент выбрать.&lt;/p&gt;
+&lt;h3 id=&#34;бесплатные-сервисы-proton-windscribe&#34;&gt;Бесплатные сервисы (Proton, Windscribe)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Плюсы:&lt;/strong&gt; Бесплатно.
+&lt;strong&gt;Минусы:&lt;/strong&gt; Ограничение скорости, мало локаций.
+&lt;em&gt;Вердикт:&lt;/em&gt; Подходит для чтения реестров, но не для глубокой работы.&lt;/p&gt;
+&lt;h3 id=&#34;платные-гиганты-mullvad-mullvad&#34;&gt;Платные гиганты (Mullvad, Mullvad)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Плюсы:&lt;/strong&gt; Максимальная анонимность, оплата криптой, функция Kill Switch.
+&lt;strong&gt;Минусы:&lt;/strong&gt; Требуют подписки.
+&lt;em&gt;Вердикт:&lt;/em&gt; Выбор профессионала.&lt;/p&gt;
+&lt;h3 id=&#34;моя-рекомендация-opsec&#34;&gt;Моя рекомендация (OPSEC):&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Используйте &lt;strong&gt;Mullvad&lt;/strong&gt; для полной анонимности.&lt;/li&gt;
+&lt;li&gt;Всегда проверяйте утечку &lt;strong&gt;WebRTC&lt;/strong&gt; перед началом поиска.&lt;/li&gt;
+&lt;li&gt;Не заходите в личные аккаунты (Google, VK) под тем же VPN, под которым ведете расследование.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
       <title>Карта связей: Объект Passenger_01</title>
       <link>https://kilaura-tribe.github.io/myblog/log/target-map/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
